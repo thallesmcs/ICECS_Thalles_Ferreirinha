@@ -23,6 +23,22 @@ output_files/
 # OpenROAD/OpenSTA outputs
 openroad_*/
 
+# Vivado outputs
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+*.gen/
+.Xil/
+xsim.dir/
+*.jou
+*.str
+*.pb
+*.wdb
+*.wdf
+*.wpc
+
 # Logs and temp files
 *.log
 *.tmp
