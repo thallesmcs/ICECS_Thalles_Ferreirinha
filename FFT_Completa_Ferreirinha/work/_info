@@ -1,0 +1,707 @@
+m255
+K4
+z2
+!s11e vcom 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/github_projects/FFT_Completa_Ferreirinha
+Eborboleta
+Z1 w1780012980
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8borboleta.vhd
+Z6 Fborboleta.vhd
+l0
+L5 1
+Vb0^RgLYWU>F`OcBcmNG_?3
+!s100 PF<1f64i=6aoLW_:4;=]C2
+Z7 OL;C;2024.3;79
+33
+Z8 !s110 1780006663
+!i10b 1
+Z9 !s108 1780006662.000000
+Z10 !s90 -2008|mux2inputs.vhd|mux8inputs.vhd|registrador.vhd|rom_memory.vhd|compressor_42_16bits.vhd|borboleta.vhd|fsm.vhd|top_level_design.vhd|testbenchs\tb_top_level_design_serial_csv.vhd|
+Z11 !s107 testbenchs\\tb_top_level_design_serial_csv.vhd|top_level_design.vhd|fsm.vhd|borboleta.vhd|compressor_42_16bits.vhd|rom_memory.vhd|registrador.vhd|mux8inputs.vhd|mux2inputs.vhd|
+!i113 0
+Z12 o-2008
+Z13 tExplicit 1 CvgOpt 0
+Aradix2
+R2
+R3
+R4
+DEx4 work 9 borboleta 0 22 b0^RgLYWU>F`OcBcmNG_?3
+!i122 0
+l34
+L13 123
+V6ZG_nYML<fbjSnGiH8Ij]1
+!s100 KGlhH:iCZEK@h>V[8RhB`1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Ecompressor_42_16bits
+R1
+Z14 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z16 DPx4 work 14 my_components2 0 22 m;Y;U=??b[Do9D>VK=nTC1
+Z17 DPx4 work 14 my_components1 0 22 [G>o:dXNn3emcn9F=;kla2
+R3
+R4
+!i122 0
+R0
+Z18 8compressor_42_16bits.vhd
+Z19 Fcompressor_42_16bits.vhd
+l0
+L215 1
+Voz@C52z[12PgUBmEHI=CU1
+!s100 463Pe7QM0>1:Li_<ZeFgk0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Acomportamento
+R14
+R15
+R16
+R17
+R3
+R4
+DEx4 work 20 compressor_42_16bits 0 22 oz@C52z[12PgUBmEHI=CU1
+!i122 0
+l230
+L223 45
+V9PoKMGaB0[Fab=KMcWHLD3
+!s100 ?DcmQC6f>9V`bVhSE=_I63
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Ecompressor_4entradas
+R1
+R17
+R3
+R4
+!i122 0
+R0
+R18
+R19
+l0
+L150 1
+VPIA^ji>df_21=@zm:S2D;0
+!s100 m8RVV=bFU<PWP]5CIe>UY3
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Acomportamento
+R17
+R3
+R4
+DEx4 work 20 compressor_4entradas 0 22 PIA^ji>df_21=@zm:S2D;0
+!i122 0
+l161
+L156 32
+VYhXIM2JlDRC=?:L0QTdk11
+!s100 15igl:VO5F9O=CogPFj`f1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Eencoder
+R1
+R3
+R4
+!i122 0
+R0
+R18
+R19
+l0
+L70 1
+VF045ZMTaZ823B4YSZVC=D0
+!s100 OdT43Km1lG12gz[Y`gW5g3
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Abehavioral
+R3
+R4
+DEx4 work 7 encoder 0 22 F045ZMTaZ823B4YSZVC=D0
+!i122 0
+l80
+L76 15
+V6o:XBSCfV0HW_WoiYh02?1
+!s100 2;BM5aglWUg5ANb`[B4zz1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Efsm
+R1
+R2
+R3
+R4
+!i122 0
+R0
+Z20 8fsm.vhd
+Z21 Ffsm.vhd
+l0
+L5 1
+V0iK?cB7@O<TR<;eI3:=fO0
+!s100 LT]kAXM2JCc:GgXbBkY4E2
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Amaquina
+R2
+R3
+R4
+DEx4 work 3 fsm 0 22 0iK?cB7@O<TR<;eI3:=fO0
+!i122 0
+l26
+L21 472
+VDKM:djAa=o1hN3ZG`Af]03
+!s100 ^>of0a[fGk69dPTNjLo]D0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Efull_adder
+R1
+R3
+R4
+!i122 0
+R0
+R18
+R19
+l0
+L25 1
+V7jeWUQ=?7^`_D=_c<YVD<2
+!s100 Iic3b<?SPDQI]n1;R@XQ83
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Arcacomportamento4m28b
+R3
+R4
+DEx4 work 10 full_adder 0 22 7jeWUQ=?7^`_D=_c<YVD<2
+!i122 0
+l34
+L31 10
+VbG=UZV`h?I3[=Ua440FKC3
+!s100 i?Yd[<dQlcHVWEam4gPN<2
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Ehalf_adder
+R1
+R3
+R4
+!i122 0
+R0
+R18
+R19
+l0
+L6 1
+VG^58<;ZB1]aXWISUXHOl13
+!s100 OMdf38=3cEJ;ONSJAIcEz1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Abehavioral
+R3
+R4
+DEx4 work 10 half_adder 0 22 G^58<;ZB1]aXWISUXHOl13
+!i122 0
+l15
+L13 8
+Vk3C@F8i[ZlRS21F07SYk42
+!s100 8;Ecz<CHo;jLIVIPlk:NK3
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Emux2inputs
+R1
+R2
+R3
+R4
+!i122 0
+R0
+Z22 8mux2inputs.vhd
+Z23 Fmux2inputs.vhd
+l0
+L5 1
+Vi2BFlkcc8b2]Y034FRAS81
+!s100 FH2[Ubk=22mTL_zVi7YV`0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 10 mux2inputs 0 22 i2BFlkcc8b2]Y034FRAS81
+!i122 0
+l16
+L15 12
+V9Z2`9YaRKK[_1EVLJ<N9=0
+!s100 1QHmW5YDbXT=_TSVC9=6C1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Emux8inputs
+R1
+R2
+R3
+R4
+!i122 0
+R0
+Z24 8mux8inputs.vhd
+Z25 Fmux8inputs.vhd
+l0
+L5 1
+V_z7_;]n1<zGG4PO<1>]nZ0
+!s100 @X;bYnWEcD?2:lM_RESAN0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 10 mux8inputs 0 22 _z7_;]n1<zGG4PO<1>]nZ0
+!i122 0
+l22
+L21 18
+VEEC`0;[;]?Sz`Pz29@b<D0
+!s100 dW@ThIKHkh8?z^Q>i>i]c0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Emux_1bit
+R1
+R15
+Z26 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R3
+R4
+!i122 0
+R0
+R18
+R19
+l0
+L50 1
+VQCgflV28i@SR_ma:F3zd;2
+!s100 UT0;l7Hm6T8^Zj4bS;=ZO3
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Acomportamento
+R15
+R26
+R3
+R4
+DEx4 work 8 mux_1bit 0 22 QCgflV28i@SR_ma:F3zd;2
+!i122 0
+l58
+L57 9
+VE>VzndiRN[8IJffQSNjNY3
+!s100 lJ2Q26]X`X?Q3e?[Q4gS60
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Pmy_components1
+R3
+R4
+!i122 0
+R1
+R0
+R18
+R19
+l0
+L95 29
+V[G>o:dXNn3emcn9F=;kla2
+!s100 _QZCz[GliZ>f96e0Tg;SA2
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Pmy_components2
+R3
+R4
+!i122 0
+R1
+R0
+R18
+R19
+l0
+L192 15
+Vm;Y;U=??b[Do9D>VK=nTC1
+!s100 LDhHEhMCETXMIR`ooz3@f2
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Eregistrador
+R1
+R2
+R3
+R4
+!i122 0
+R0
+Z27 8registrador.vhd
+Z28 Fregistrador.vhd
+l0
+L5 1
+V6FVoXkB0g;l;M>_E<Yd2`0
+!s100 4::Z]eP_@l;JKz@eW`F@z1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Areg
+R2
+R3
+R4
+DEx4 work 11 registrador 0 22 6FVoXkB0g;l;M>_E<Yd2`0
+!i122 0
+l16
+L15 11
+VZ`LGk[]B8dYohFcbNfHJ01
+!s100 ]YmU:XCAT?i1_XjLC:E3O2
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Erom
+R1
+R2
+R3
+R4
+!i122 0
+R0
+Z29 8rom_memory.vhd
+Z30 From_memory.vhd
+l0
+L5 1
+V7;^:0Vg[JH@I0M0Ig1mFb2
+!s100 UKNEHQAH:70kh?EeSKmnC1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Amemoria
+R2
+R3
+R4
+DEx4 work 3 rom 0 22 7;^:0Vg[JH@I0M0Ig1mFb2
+!i122 0
+l29
+L14 20
+VUM>OIZX4fl=[lJSGgG]`[3
+!s100 LlOaY5TN]4JnAb4L7J=C>2
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Esomador3_2
+R1
+R17
+R3
+R4
+!i122 0
+R0
+R18
+R19
+l0
+L129 1
+Vb;P@^d[R:G_6aGoU^MLli3
+!s100 LRa`f@2YLY34YUdaf`T792
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Arcacomportamento4m28b
+R17
+R3
+R4
+DEx4 work 10 somador3_2 0 22 b;P@^d[R:G_6aGoU^MLli3
+!i122 0
+l139
+L135 10
+V;SoTRlX7c<F9m=9`GQhTz3
+!s100 >V]_U]cQV]kR>d8>h3nc10
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Etb_top_level_design_serial_csv
+Z31 w1780006674
+Z32 DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
+Z33 DPx3 std 3 env 0 22 g[fj8WJKOa<0Y`zWY3UD70
+R2
+R3
+R4
+!i122 1
+R0
+Z34 8testbenchs\tb_top_level_design_serial_csv.vhd
+Z35 Ftestbenchs\tb_top_level_design_serial_csv.vhd
+l0
+L8 1
+VlLl3ol?@?ndNdEzddVEQg1
+!s100 1_>TeTcBDJ:G;C`mdLz100
+R7
+33
+Z36 !s110 1780006677
+!i10b 1
+Z37 !s108 1780006677.000000
+Z38 !s90 -2008|testbenchs\tb_top_level_design_serial_csv.vhd|
+!s107 testbenchs\\tb_top_level_design_serial_csv.vhd|
+!i113 0
+R12
+R13
+Asim
+Z39 DEx4 work 16 top_level_design 0 22 L64Oi8]A;QiQ=3OhzRE?m2
+R32
+R33
+R2
+R3
+R4
+DEx4 work 30 tb_top_level_design_serial_csv 0 22 lLl3ol?@?ndNdEzddVEQg1
+!i122 1
+l280
+L11 371
+V47Lhc6hd9Mj]mmNd`F?ca1
+!s100 RCi=BZhX4PUKV2^CU6=Vb2
+R7
+33
+R36
+!i10b 1
+R37
+R38
+Z40 !s107 testbenchs\\tb_top_level_design_serial_csv.vhd|
+!i113 0
+R12
+R13
+Etop_level_design
+Z41 w1780004486
+R2
+R3
+R4
+!i122 0
+R0
+Z42 8top_level_design.vhd
+Z43 Ftop_level_design.vhd
+l0
+L5 1
+VL64Oi8]A;QiQ=3OhzRE?m2
+!s100 3PlZ3XWcIebGBNFjNLWWc0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Afft_16
+R2
+R3
+R4
+R39
+!i122 0
+l119
+L21 340
+V>`ZlmXUH9ASjNPBaFXS_:3
+!s100 NNTNlCgZ]Kj7OReBk8c`52
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13

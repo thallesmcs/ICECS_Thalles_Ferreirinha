@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_fft16_hls_audio_inputs_waveform_behav" "xil_defaultlib.tb_fft16_hls_audio_inputs_waveform" -log "elaborate.log" 

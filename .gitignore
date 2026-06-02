@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Quartus/Intel FPGA outputs
+db/
+incremental_db/
+output_files/
+*.qpf.user
+*.qsf.user
+*.qws
+*.rpt
+*.smsg
+*.summary
+*.sof
+*.pof
+*.jdi
+*.jic
+*.pin
+*.map.*
+
+# OpenROAD/OpenSTA outputs
+openroad_*/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+
+# OS junk
+.DS_Store
+Thumbs.db

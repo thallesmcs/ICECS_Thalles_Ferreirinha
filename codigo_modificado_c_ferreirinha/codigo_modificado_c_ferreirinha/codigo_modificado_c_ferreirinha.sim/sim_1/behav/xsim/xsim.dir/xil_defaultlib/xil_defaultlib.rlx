@@ -1,0 +1,26 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+F:/github_projects/codigo_modificado_c_ferreirinha/codigo_modificado_c_ferreirinha/codigo_modificado_c_ferreirinha.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls.vhd,1779890559,vhdl,F:/github_projects/codigo_modificado_c_ferreirinha/testbenchs/tb_fft16_hls_audio_inputs_waveform.vhd,,,fft16_hls,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2.vhd,1779890558,vhdl,,,,fft16_hls_fft16_hls_pipeline_vitis_loop_157_2,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_HAB_ROM_AUTO_1R.vhd,1779890558,vhdl,,,,fft16_hls_fft16_hls_pipeline_vitis_loop_157_2_hab_rom_auto_1r,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_MUX_A_IDX_ROM_AUTO_1R.vhd,1779890558,vhdl,,,,fft16_hls_fft16_hls_pipeline_vitis_loop_157_2_mux_a_idx_rom_auto_1r,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_MUX_B_IDX_ROM_AUTO_1R.vhd,1779890558,vhdl,,,,fft16_hls_fft16_hls_pipeline_vitis_loop_157_2_mux_b_idx_rom_auto_1r,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_ROM_ADDR_ROM_AUTO_1R.vhd,1779890558,vhdl,,,,fft16_hls_fft16_hls_pipeline_vitis_loop_157_2_rom_addr_rom_auto_1r,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_T3R1_ROM_AUTO_1R.vhd,1779890558,vhdl,,,,fft16_hls_fft16_hls_pipeline_vitis_loop_157_2_t3r1_rom_auto_1r,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_T3R2_ROM_AUTO_1R.vhd,1779890558,vhdl,,,,fft16_hls_fft16_hls_pipeline_vitis_loop_157_2_t3r2_rom_auto_1r,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_T4R1_ROM_AUTO_1R.vhd,1779890558,vhdl,,,,fft16_hls_fft16_hls_pipeline_vitis_loop_157_2_t4r1_rom_auto_1r,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_T4R2_ROM_AUTO_1R.vhd,1779890558,vhdl,,,,fft16_hls_fft16_hls_pipeline_vitis_loop_157_2_t4r2_rom_auto_1r,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_TEMP1_ROM_AUTO_1R.vhd,1779890558,vhdl,,,,fft16_hls_fft16_hls_pipeline_vitis_loop_157_2_temp1_rom_auto_1r,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_TW_IM_ROM_AUTO_1R.vhd,1779890558,vhdl,,,,fft16_hls_fft16_hls_pipeline_vitis_loop_157_2_tw_im_rom_auto_1r,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_TW_RE_ROM_AUTO_1R.vhd,1779890558,vhdl,,,,fft16_hls_fft16_hls_pipeline_vitis_loop_157_2_tw_re_rom_auto_1r,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_flow_control_loop_pipe_sequential_init.vhd,1779890559,vhdl,,,,fft16_hls_flow_control_loop_pipe_sequential_init,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_mul_15s_16s_31_1_1.vhd,1779890558,vhdl,,,,fft16_hls_mul_15s_16s_31_1_1,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_mul_15s_17s_30_1_1.vhd,1779890558,vhdl,,,,fft16_hls_mul_15s_17s_30_1_1,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_mul_16s_16s_30_1_1.vhd,1779890558,vhdl,,,,fft16_hls_mul_16s_16s_30_1_1,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/fft16_hls_sparsemux_29_4_16_1_1.vhd,1779890558,vhdl,,,,fft16_hls_sparsemux_29_4_16_1_1,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/testbenchs/tb_fft16_hls_audio_inputs_waveform.vhd,1779915564,vhdl,,,,tb_fft16_hls_audio_inputs_waveform,,,,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/testbenchs/tb_fft16_hls_power_vcd.v,1779927431,verilog,,,,tb_fft16_hls_power_vcd,,,../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+F:/github_projects/codigo_modificado_c_ferreirinha/testbenchs/tb_fft16_hls_single_driver_capture.vhd,1779919466,vhdl,,,,tb_fft16_hls_single_driver_capture,,,,,,,,

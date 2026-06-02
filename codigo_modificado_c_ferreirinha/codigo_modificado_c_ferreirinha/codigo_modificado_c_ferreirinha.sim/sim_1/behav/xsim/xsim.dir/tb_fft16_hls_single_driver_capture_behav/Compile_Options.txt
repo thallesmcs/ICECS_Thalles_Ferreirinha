@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_fft16_hls_single_driver_capture_behav" "xil_defaultlib.tb_fft16_hls_single_driver_capture" -log "elaborate.log" 

@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "fft16_hls_behav" "xil_defaultlib.fft16_hls" -log "elaborate.log" 

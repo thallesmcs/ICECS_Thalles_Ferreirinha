@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../borboleta.vhd" \
+"../../../../../compressor_42_16bits.vhd" \
+"../../../../../fsm.vhd" \
+"../../../../../mux2inputs.vhd" \
+"../../../../../mux8inputs.vhd" \
+"../../../../../registrador.vhd" \
+"../../../../../rom_memory.vhd" \
+"../../../../../top_level_design.vhd" \
+"../../../../../top_level_design2.vhd" \
+"../../../../../testbenchs/tb_top_level_design_serial_csv.vhd" \
+
+# Do not sort compile order
+nosort

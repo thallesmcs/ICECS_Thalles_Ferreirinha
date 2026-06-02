@@ -1,0 +1,24 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../fft16_hls.vhd" \
+"../../../../../fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2.vhd" \
+"../../../../../fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_HAB_ROM_AUTO_1R.vhd" \
+"../../../../../fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_MUX_A_IDX_ROM_AUTO_1R.vhd" \
+"../../../../../fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_MUX_B_IDX_ROM_AUTO_1R.vhd" \
+"../../../../../fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_ROM_ADDR_ROM_AUTO_1R.vhd" \
+"../../../../../fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_T3R1_ROM_AUTO_1R.vhd" \
+"../../../../../fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_T3R2_ROM_AUTO_1R.vhd" \
+"../../../../../fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_T4R1_ROM_AUTO_1R.vhd" \
+"../../../../../fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_T4R2_ROM_AUTO_1R.vhd" \
+"../../../../../fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_TEMP1_ROM_AUTO_1R.vhd" \
+"../../../../../fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_TW_IM_ROM_AUTO_1R.vhd" \
+"../../../../../fft16_hls_fft16_hls_Pipeline_VITIS_LOOP_157_2_TW_RE_ROM_AUTO_1R.vhd" \
+"../../../../../fft16_hls_flow_control_loop_pipe_sequential_init.vhd" \
+"../../../../../fft16_hls_mul_15s_16s_31_1_1.vhd" \
+"../../../../../fft16_hls_mul_15s_17s_30_1_1.vhd" \
+"../../../../../fft16_hls_mul_16s_16s_30_1_1.vhd" \
+"../../../../../fft16_hls_sparsemux_29_4_16_1_1.vhd" \
+"../../../../../testbenchs/tb_fft16_hls_audio_inputs_waveform.vhd" \
+
+# Do not sort compile order
+nosort

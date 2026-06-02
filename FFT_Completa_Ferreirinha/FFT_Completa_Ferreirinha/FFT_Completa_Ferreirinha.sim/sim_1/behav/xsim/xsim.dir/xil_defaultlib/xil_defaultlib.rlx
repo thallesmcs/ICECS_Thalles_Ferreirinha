@@ -1,0 +1,13 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+F:/github_projects/FFT_Completa_Ferreirinha/borboleta.vhd,1780012980,vhdl,,,,borboleta,,,,,,,,
+F:/github_projects/FFT_Completa_Ferreirinha/compressor_42_16bits.vhd,1780012980,vhdl,,,,compressor_42_16bits;compressor_4entradas;encoder;full_adder;half_adder;mux_1bit;my_components1;my_components2;somador3_2,,,,,,,,
+F:/github_projects/FFT_Completa_Ferreirinha/fsm.vhd,1780012980,vhdl,,,,fsm,,,,,,,,
+F:/github_projects/FFT_Completa_Ferreirinha/mux2inputs.vhd,1780012980,vhdl,,,,mux2inputs,,,,,,,,
+F:/github_projects/FFT_Completa_Ferreirinha/mux8inputs.vhd,1780012980,vhdl,,,,mux8inputs,,,,,,,,
+F:/github_projects/FFT_Completa_Ferreirinha/registrador.vhd,1780012980,vhdl,,,,registrador,,,,,,,,
+F:/github_projects/FFT_Completa_Ferreirinha/rom_memory.vhd,1780012980,vhdl,,,,rom,,,,,,,,
+F:/github_projects/FFT_Completa_Ferreirinha/testbenchs/tb_top_level_design_serial_csv.vhd,1780006674,vhdl,,,,tb_top_level_design_serial_csv,,,,,,,,
+F:/github_projects/FFT_Completa_Ferreirinha/top_level_design.vhd,1780004486,vhdl,,,,top_level_design,,,,,,,,
