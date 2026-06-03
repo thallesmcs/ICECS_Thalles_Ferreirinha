@@ -14,7 +14,7 @@ architecture sim of tb_top_level_design_serial_csv is
     constant CLK_PERIOD : time := 6666 ps;
 
     constant INPUT_DIR  : string := "F:/github_projects/FFT_Completa_Ferreirinha/entradas_tb/inputs/";
-    constant OUTPUT_CSV : string := "F:/github_projects/Codigos ICECS FFT/FFT_RTL_com_butterfly_HLS/testbenchs/FFT_RTL_com_butterfly_HLS_outputs.csv";
+    constant OUTPUT_CSV : string := "F:/github_projects/Codigos ICECS FFT/FFT_RTL_com_butterfly_HLS_realinhamento/testbenchs/FFT_RTL_com_butterfly_HLS_realinhamento_outputs.csv";
 
     
 
