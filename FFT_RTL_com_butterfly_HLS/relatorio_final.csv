@@ -1,0 +1,2 @@
+DESIGN,Total Logic Utilization,Total Registers,Total Pins,DSP Blocks,FMAX (85C),PASTA,STATUS
+FFT_RTL_com_butterfly_HLS,853 (ALMs),1748,76,4,50.82,output_files,OK

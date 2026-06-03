@@ -78,13 +78,19 @@ hab: out std_logic_vector(15 downto 0)
 );
 end component;
 
-component borboleta is
-generic ( WIDTH: integer := 16 );
-port(
-clk                   : in  std_logic;
-limpa                 : in  std_logic;
-Ar, Ai, Br, Bi, Wr, Wi : in  std_logic_vector(WIDTH-1 downto 0);
-Cr, Ci, Dr, Di         : out std_logic_vector(WIDTH-1 downto 0)
+component radix2_baseline is
+port (
+	Ar     : in  std_logic_vector(15 downto 0);
+	Ai     : in  std_logic_vector(15 downto 0);
+	Br     : in  std_logic_vector(15 downto 0);
+	Bi     : in  std_logic_vector(15 downto 0);
+	Wr     : in  std_logic_vector(15 downto 0);
+	Wi     : in  std_logic_vector(15 downto 0);
+	Cr     : out std_logic_vector(15 downto 0);
+	Dr     : out std_logic_vector(15 downto 0);
+	Ci     : out std_logic_vector(15 downto 0);
+	Di     : out std_logic_vector(15 downto 0);
+	ap_rst : in  std_logic
 );
 end component;
 
@@ -345,7 +351,20 @@ estagio_5_Br: mux2inputs port map (temp4r2,varR1,varR2,br);
 estagio_5_Ai: mux2inputs port map (temp4r1,varI1,varI2,ai);
 estagio_5_Bi: mux2inputs port map (temp4r2,varI1,varI2,bi);
 
-estagio_6_borboleta: borboleta port map(clock,limpa,ar,ai,br,bi,wr,wi,cr,ci,dr,di);
+estagio_6_radix2_baseline: radix2_baseline
+	port map (
+		Ar     => ar,
+		Ai     => ai,
+		Br     => br,
+		Bi     => bi,
+		Wr     => wr,
+		Wi     => wi,
+		Cr     => cr,
+		Dr     => dr,
+		Ci     => ci,
+		Di     => di,
+		ap_rst => not limpa
+	);
 
 estagio7_Ar: mux2inputs port map (temp5r1,cr,dr,p0r);
 estagio7_Br: mux2inputs port map (temp5r2,cr,dr,p1r);

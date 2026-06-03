@@ -5,8 +5,6 @@ use ieee.numeric_std.all;
 entity borboleta is
 generic ( WIDTH: integer := 16 );
 port(
-    clk                   : in  std_logic;
-    limpa                 : in  std_logic;
     Ar, Ai, Br, Bi, Wr, Wi : in  std_logic_vector(WIDTH-1 downto 0);
     Cr, Ci, Dr, Di         : out std_logic_vector(WIDTH-1 downto 0)
 );
@@ -29,46 +27,11 @@ signal op1, op2, op3, op4 : std_logic_vector(MUL_W-1 downto 0);
 
 signal t_op1, t_op2, t_op3, t_op4 : std_logic_vector(WIDTH-1 downto 0);
 
-signal ar_r, ai_r, br_r, bi_r, wr_r, wi_r : std_logic_vector(WIDTH-1 downto 0);
-signal t_op1_r, t_op2_r, t_op3_r, t_op4_r : std_logic_vector(WIDTH-1 downto 0);
-signal ar_sum_r, ai_sum_r : std_logic_vector(WIDTH-1 downto 0);
-
 signal nt_op1, nt_op2, nt_op3, nt_op4 : std_logic_vector(WIDTH-1 downto 0);
 
 signal cr_temp, dr_temp, ci_temp, di_temp : std_logic_vector(17 downto 0);
 
 begin
-
-pipeline_regs: process(clk, limpa)
-begin
-    if limpa = '0' then
-        ar_r <= (others => '0');
-        ai_r <= (others => '0');
-        br_r <= (others => '0');
-        bi_r <= (others => '0');
-        wr_r <= (others => '0');
-        wi_r <= (others => '0');
-        t_op1_r <= (others => '0');
-        t_op2_r <= (others => '0');
-        t_op3_r <= (others => '0');
-        t_op4_r <= (others => '0');
-        ar_sum_r <= (others => '0');
-        ai_sum_r <= (others => '0');
-    elsif rising_edge(clk) then
-        ar_r <= Ar;
-        ai_r <= Ai;
-        br_r <= Br;
-        bi_r <= Bi;
-        wr_r <= Wr;
-        wi_r <= Wi;
-        t_op1_r <= t_op1;
-        t_op2_r <= t_op2;
-        t_op3_r <= t_op3;
-        t_op4_r <= t_op4;
-        ar_sum_r <= ar_r;
-        ai_sum_r <= ai_r;
-    end if;
-end process;
 
 -- ============================================================
 -- Multiplicações complexas
@@ -78,10 +41,10 @@ end process;
 -- m3 = Br * Wi
 -- m4 = Bi * Wr
 
-m1 <= signed(br_r) * signed(wr_r);
-m2 <= signed(bi_r) * signed(wi_r);
-m3 <= signed(br_r) * signed(wi_r);
-m4 <= signed(bi_r) * signed(wr_r);
+m1 <= signed(Br) * signed(Wr);
+m2 <= signed(Bi) * signed(Wi);
+m3 <= signed(Br) * signed(Wi);
+m4 <= signed(Bi) * signed(Wr);
 
 op1 <= std_logic_vector(m1);
 op2 <= std_logic_vector(m2);
@@ -107,10 +70,10 @@ t_op4 <= op4(MUL_W-1) & op4(MUL_W-4 downto 14); -- Bi*Wr
 -- Versões negativas dos termos truncados
 -- ============================================================
 
-nt_op1 <= std_logic_vector(-signed(t_op1_r)); -- -Br*Wr
-nt_op2 <= std_logic_vector(-signed(t_op2_r)); -- -Bi*Wi
-nt_op3 <= std_logic_vector(-signed(t_op3_r)); -- -Br*Wi
-nt_op4 <= std_logic_vector(-signed(t_op4_r)); -- -Bi*Wr
+nt_op1 <= std_logic_vector(-signed(t_op1)); -- -Br*Wr
+nt_op2 <= std_logic_vector(-signed(t_op2)); -- -Bi*Wi
+nt_op3 <= std_logic_vector(-signed(t_op3)); -- -Br*Wi
+nt_op4 <= std_logic_vector(-signed(t_op4)); -- -Bi*Wr
 
 -- ============================================================
 -- Estágios usando compressor 4:2
@@ -126,8 +89,8 @@ nt_op4 <= std_logic_vector(-signed(t_op4_r)); -- -Bi*Wr
 
 estagio1_Cr : compressor_42_16bits
 port map (
-    A    => ar_sum_r,
-    B    => t_op1_r,
+    A    => Ar,
+    B    => t_op1,
     C    => nt_op2,
     D    => (others => '0'),
     SOMA => cr_temp
@@ -135,25 +98,25 @@ port map (
 
 estagio2_Dr : compressor_42_16bits
 port map (
-    A    => ar_sum_r,
+    A    => Ar,
     B    => nt_op1,
-    C    => t_op2_r,
+    C    => t_op2,
     D    => (others => '0'),
     SOMA => dr_temp
 );
 
 estagio3_Ci : compressor_42_16bits
 port map (
-    A    => ai_sum_r,
-    B    => t_op3_r,
-    C    => t_op4_r,
+    A    => Ai,
+    B    => t_op3,
+    C    => t_op4,
     D    => (others => '0'),
     SOMA => ci_temp
 );
 
 estagio4_Di : compressor_42_16bits
 port map (
-    A    => ai_sum_r,
+    A    => Ai,
     B    => nt_op3,
     C    => nt_op4,
     D    => (others => '0'),
